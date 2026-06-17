@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <style>
+        main {
+            width: 100vw;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">demo webpase</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main style="width: 90vw;" class="container mt-5">
+        <section class="row">
+            <div class="col-md-6">
+                <h2>Welcome to Our Website</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-md-6">
+                <img class=""
+                    src="data:image/webp;base64,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"
+                    alt="Placeholder Image" class="img-fluid">
+            </div>
+
+        </section>
+
+
+        <section class="  container row gx-5 m-5">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+
+            <div class="card  " style="width: 18rem; margin: 1rem;">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 1rem;">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 1rem;    ">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 1rem">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 1rem">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 1rem">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://plus.unsplash.com/premium_photo-1781083634183-ab71d9dbc2c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container my-5">
+
+            <h2 class="text-center my-4 ">Contact Us</h2>
+
+
+            <form style="width: 50vw; margin: auto; " class=" p-5 border rounded-3 shadow-lg">
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">full name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter your full name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+            </form>
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <div class="container">
+            <ul class="list-unstyled">
+                <li><a href="mailto:info@yourcompany.com" class="text-white">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
